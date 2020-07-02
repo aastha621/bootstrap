@@ -52,7 +52,8 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                    <img src="img/logo.png" class="img-fluid"> 
+                    <button class="col-12 col-sm-6 btn btn-sm bg-warning"><a href="#reservation">Reserve a Table</a></button>
                 </div>
             </div>
             
@@ -70,7 +71,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -86,9 +87,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md" >
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
+                 <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                 <div class="media">
+                    
+                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p><img class="d-flex ml-auto img-thumbnail align-self-center"
+                            src="img/buffet.png" alt="Buffet"></div>
+                
+                    
+                </div>
         </div>
 
         <div class="row row-content align-items-center">
@@ -112,6 +118,35 @@
             </div>
         </div>
     </div>
+
+
+    <div class="container" id="reservation">
+        <div class="row row-content justify-content-center">
+            <div class="card col-12 col-sm-8 d-sm-block "> 
+                <div class="card-header bg-warning"><h3>Reserve a Table</h3></div>
+                 <div class="card-body justify-content-center">
+                    <form >
+                        <label>Number of Guests </label> 
+                        <input type="radio"  value="1"> 1
+                        <input type="radio"  value="2"> 2
+                        <input type="radio"  value="3"> 3
+                        <input type="radio"  value="4"> 4
+                        <input type="radio"  value="5"> 5
+                        <input type="radio"  value="6"> 6 <br>
+
+                        <label>Date and Time</label>
+                        <input type="text" name="Date" placeholder="Date" class="col-12 col-sm-4">  <input type="text" name="Time" placeholder="Time" class="col-12 col-sm-4"><br>
+
+                                         <input type="submit" value="Reserve" class="bg-primary">
+
+
+                    </form>
+                </div>
+               
+           </div>
+        </div>
+    </div>
+
 
     <footer class="footer">
         <div class="container">
